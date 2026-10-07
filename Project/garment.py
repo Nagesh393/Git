@@ -1,13 +1,7 @@
-import mysql.connector as mysql
+
 import pandas as pd 
 import streamlit as st
 
-connection = mysql.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="garment"
-)
 
 
 
